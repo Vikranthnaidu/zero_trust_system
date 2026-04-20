@@ -1,0 +1,35 @@
+[2026-04-20 00:17:39] ERROR: Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/vikranth/zero-trust-system/backend/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateRefreshToken (/Users/vikranth/zero-trust-system/backend/utils/helpers.js:28:14)
+    at verifyOTP (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:364:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:20:08] ERROR: Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/vikranth/zero-trust-system/backend/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateRefreshToken (/Users/vikranth/zero-trust-system/backend/utils/helpers.js:28:14)
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:241:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:20:16] ERROR: Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/vikranth/zero-trust-system/backend/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateRefreshToken (/Users/vikranth/zero-trust-system/backend/utils/helpers.js:28:14)
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:241:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:23:08] ERROR: Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/vikranth/zero-trust-system/backend/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateRefreshToken (/Users/vikranth/zero-trust-system/backend/utils/helpers.js:28:14)
+    at verifyOTP (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:364:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:44:38] ERROR: TypeError: sendOTPEmail is not a function
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:203:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:46:14] ERROR: TypeError: sendOTPEmail is not a function
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:203:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:47:44] ERROR: TypeError: sendOTPEmail is not a function
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:203:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:47:46] ERROR: TypeError: sendOTPEmail is not a function
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:203:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:48:46] ERROR: TypeError: sendOTPEmail is not a function
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:203:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

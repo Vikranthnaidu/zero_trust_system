@@ -1,0 +1,227 @@
+[2026-04-19 23:49:32] INFO: ✅ Database models synchronized
+[2026-04-19 23:52:19] INFO: ✅ Database models synchronized
+[2026-04-19 23:52:36] INFO: ✅ Database models synchronized
+[2026-04-19 23:54:28] INFO: ✅ Database models synchronized
+[2026-04-19 23:57:13] INFO: ✅ Database models synchronized
+[2026-04-19 23:59:26] INFO: ✅ Database models synchronized
+[2026-04-20 00:01:33] INFO: ✅ Database models synchronized
+[2026-04-20 00:02:12] INFO: ✅ Database models synchronized
+[2026-04-20 00:02:12] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:02:12] INFO: 🔒 Environment: development
+[2026-04-20 00:02:12] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:08:59] INFO: ✅ Database models synchronized
+[2026-04-20 00:08:59] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:08:59] INFO: 🔒 Environment: development
+[2026-04-20 00:08:59] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:10:05] DEBUG: → GET /favicon.ico [::1]
+[2026-04-20 00:16:56] INFO: ✅ Database models synchronized
+[2026-04-20 00:16:56] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:16:56] INFO: 🔒 Environment: development
+[2026-04-20 00:16:56] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:17:16] DEBUG: → POST /api/auth/register [::1]
+[2026-04-20 00:17:16] INFO: New user registered: mdurgavikranth@gmail.com
+[2026-04-20 00:17:27] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:17:27] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-04-20 00:17:27] INFO: 📧  MOCK EMAIL (Development Mode)
+[2026-04-20 00:17:27] INFO:     To:  mdurgavikranth@gmail.com
+[2026-04-20 00:17:27] INFO:     OTP: 983929
+[2026-04-20 00:17:27] INFO:     Expires in 10 minutes
+[2026-04-20 00:17:27] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-04-20 00:17:39] DEBUG: → POST /api/auth/verify-otp [::1]
+[2026-04-20 00:17:39] ERROR: Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/vikranth/zero-trust-system/backend/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateRefreshToken (/Users/vikranth/zero-trust-system/backend/utils/helpers.js:28:14)
+    at verifyOTP (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:364:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:18:30] DEBUG: → POST /api/auth/verify-otp [::1]
+[2026-04-20 00:19:58] DEBUG: → POST /api/auth/verify-otp [::1]
+[2026-04-20 00:20:08] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:20:08] ERROR: Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/vikranth/zero-trust-system/backend/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateRefreshToken (/Users/vikranth/zero-trust-system/backend/utils/helpers.js:28:14)
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:241:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:20:16] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:20:16] ERROR: Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/vikranth/zero-trust-system/backend/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateRefreshToken (/Users/vikranth/zero-trust-system/backend/utils/helpers.js:28:14)
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:241:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:22:13] INFO: ✅ Database models synchronized
+[2026-04-20 00:22:13] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:22:13] INFO: 🔒 Environment: development
+[2026-04-20 00:22:13] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:22:36] DEBUG: → POST /api/auth/register [::1]
+[2026-04-20 00:22:37] INFO: New user registered: pavanneerudu32@gmail.com
+[2026-04-20 00:22:50] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:22:50] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-04-20 00:22:50] INFO: 📧  MOCK EMAIL (Development Mode)
+[2026-04-20 00:22:50] INFO:     To:  pavanneerudu32@gmail.com
+[2026-04-20 00:22:50] INFO:     OTP: 632805
+[2026-04-20 00:22:50] INFO:     Expires in 10 minutes
+[2026-04-20 00:22:50] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-04-20 00:23:08] DEBUG: → POST /api/auth/verify-otp [::1]
+[2026-04-20 00:23:08] ERROR: Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/vikranth/zero-trust-system/backend/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateRefreshToken (/Users/vikranth/zero-trust-system/backend/utils/helpers.js:28:14)
+    at verifyOTP (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:364:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:26:32] INFO: ✅ Database models synchronized
+[2026-04-20 00:26:32] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:26:32] INFO: 🔒 Environment: development
+[2026-04-20 00:26:32] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:27:02] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:27:02] INFO: User mdurgavikranth@gmail.com logged in from trusted device
+[2026-04-20 00:27:02] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:27:02] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:28:17] DEBUG: → POST /api/auth/logout [::1]
+[2026-04-20 00:28:27] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:28:27] INFO: User pavanneerudu32@gmail.com logged in from trusted device
+[2026-04-20 00:28:28] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:28:28] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:28:35] DEBUG: → POST /api/auth/logout [::1]
+[2026-04-20 00:29:06] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:29:06] INFO: User mdurgavikranth@gmail.com logged in from trusted device
+[2026-04-20 00:29:06] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:29:06] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:29:11] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:29:11] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:29:31] DEBUG: → PATCH /api/resources/admin/users/2/toggle [::1]
+[2026-04-20 00:29:31] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:29:35] DEBUG: → POST /api/auth/logout [::1]
+[2026-04-20 00:29:45] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:29:45] INFO: User pavanneerudu32@gmail.com logged in from trusted device
+[2026-04-20 00:29:45] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:29:45] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:29:57] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:29:58] INFO: User mdurgavikranth@gmail.com logged in from trusted device
+[2026-04-20 00:29:58] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:29:58] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:30:28] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:30:28] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:30:32] DEBUG: → PATCH /api/resources/admin/users/2/toggle [::1]
+[2026-04-20 00:30:32] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:30:40] DEBUG: → GET /api/resources/logs?limit=50 [::1]
+[2026-04-20 00:31:12] DEBUG: → POST /api/auth/logout [::1]
+[2026-04-20 00:31:35] DEBUG: → POST /api/auth/register [::1]
+[2026-04-20 00:31:35] INFO: New user registered: 2200031602cseh@gmail.com
+[2026-04-20 00:31:49] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:31:49] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-04-20 00:31:49] INFO: 📧  MOCK EMAIL (Development Mode)
+[2026-04-20 00:31:49] INFO:     To:  2200031602cseh@gmail.com
+[2026-04-20 00:31:49] INFO:     OTP: 558268
+[2026-04-20 00:31:49] INFO:     Expires in 10 minutes
+[2026-04-20 00:31:49] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-04-20 00:32:19] DEBUG: → POST /api/auth/verify-otp [::1]
+[2026-04-20 00:32:19] INFO: User 2200031602cseh@gmail.com completed MFA and device Chrome 147.0.0.0 on Mac OS 10.15.7 is now trusted
+[2026-04-20 00:32:19] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:32:19] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:35:34] DEBUG: → POST /api/auth/logout [::1]
+[2026-04-20 00:35:42] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:35:43] INFO: User mdurgavikranth@gmail.com logged in from trusted device
+[2026-04-20 00:35:43] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:35:43] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:35:56] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:35:56] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:35:59] DEBUG: → GET /api/resources/logs?limit=50 [::1]
+[2026-04-20 00:36:05] DEBUG: → GET /api/resources/logs?limit=50 [::1]
+[2026-04-20 00:37:17] INFO: ✅ Database models synchronized
+[2026-04-20 00:37:18] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:37:18] INFO: 🔒 Environment: development
+[2026-04-20 00:37:18] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:37:33] DEBUG: → PATCH /api/resources/admin/users/3/toggle [::1]
+[2026-04-20 00:37:33] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:37:37] DEBUG: → PATCH /api/resources/admin/users/3/toggle [::1]
+[2026-04-20 00:37:37] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:37:49] DEBUG: → POST /api/auth/logout [::1]
+[2026-04-20 00:38:44] DEBUG: → POST /api/auth/register [::1]
+[2026-04-20 00:38:45] INFO: New user registered: 2200030948cseh@gmail.com
+[2026-04-20 00:39:03] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:39:03] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-04-20 00:39:03] INFO: 📧  MOCK EMAIL (Development Mode)
+[2026-04-20 00:39:03] INFO:     To:  2200030948cseh@gmail.com
+[2026-04-20 00:39:03] INFO:     OTP: 972839
+[2026-04-20 00:39:03] INFO:     Expires in 10 minutes
+[2026-04-20 00:39:03] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2026-04-20 00:44:14] INFO: ✅ Database models synchronized
+[2026-04-20 00:44:14] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:44:14] INFO: 🔒 Environment: development
+[2026-04-20 00:44:14] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:44:38] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:44:38] ERROR: TypeError: sendOTPEmail is not a function
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:203:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:44:55] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:45:33] INFO: ✅ Database models synchronized
+[2026-04-20 00:45:33] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:45:33] INFO: 🔒 Environment: development
+[2026-04-20 00:45:33] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:45:52] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:45:52] INFO: User mdurgavikranth@gmail.com logged in from trusted device
+[2026-04-20 00:45:52] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:45:52] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:46:00] DEBUG: → POST /api/auth/logout [::1]
+[2026-04-20 00:46:14] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:46:14] ERROR: TypeError: sendOTPEmail is not a function
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:203:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:47:34] DEBUG: → POST /api/auth/register [::1]
+[2026-04-20 00:47:34] INFO: New user registered: mdurgavikranth@gmail.com
+[2026-04-20 00:47:44] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:47:44] ERROR: TypeError: sendOTPEmail is not a function
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:203:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:47:46] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:47:46] ERROR: TypeError: sendOTPEmail is not a function
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:203:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:48:35] DEBUG: → POST /api/auth/register [::1]
+[2026-04-20 00:48:36] INFO: New user registered: mdurgavikranth@gmail.com
+[2026-04-20 00:48:46] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:48:46] ERROR: TypeError: sendOTPEmail is not a function
+    at login (/Users/vikranth/zero-trust-system/backend/controllers/authController.js:203:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-20 00:49:09] INFO: ✅ Database models synchronized
+[2026-04-20 00:49:09] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:49:09] INFO: 🔒 Environment: development
+[2026-04-20 00:49:09] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:49:10] INFO: ✅ Database models synchronized
+[2026-04-20 00:49:10] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:49:10] INFO: 🔒 Environment: development
+[2026-04-20 00:49:10] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:49:11] INFO: ✅ Database models synchronized
+[2026-04-20 00:49:11] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 00:49:11] INFO: 🔒 Environment: development
+[2026-04-20 00:49:11] INFO: 🛡️  Zero Trust Security System Active
+[2026-04-20 00:50:02] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:50:06] INFO: ✅ OTP email sent to mdurgavikranth@gmail.com
+[2026-04-20 00:50:06] DEBUG: Message ID: <5bca2709-c717-0a57-3ae2-30d5d8219ec7@gmail.com>
+[2026-04-20 00:50:32] DEBUG: → POST /api/auth/verify-otp [::1]
+[2026-04-20 00:50:32] INFO: User mdurgavikranth@gmail.com completed MFA and device Chrome 147.0.0.0 on Mac OS 10.15.7 is now trusted
+[2026-04-20 00:50:32] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:50:32] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:52:42] DEBUG: → POST /api/auth/logout [::1]
+[2026-04-20 00:52:53] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:52:53] INFO: User mdurgavikranth@gmail.com logged in from trusted device
+[2026-04-20 00:52:53] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:52:53] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:52:58] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:52:58] DEBUG: → GET /api/resources/admin [::1]
+[2026-04-20 00:53:04] DEBUG: → GET /api/resources/logs?limit=50 [::1]
+[2026-04-20 00:53:11] DEBUG: → GET /api/resources/logs?limit=50 [::1]
+[2026-04-20 00:53:16] DEBUG: → GET /api/resources/logs?limit=50 [::1]
+[2026-04-20 00:53:19] DEBUG: → POST /api/auth/logout [::1]
+[2026-04-20 00:53:41] DEBUG: → POST /api/auth/register [::1]
+[2026-04-20 00:53:41] INFO: New user registered: pavanneerudu32@gmail.com
+[2026-04-20 00:53:52] DEBUG: → POST /api/auth/login [::1]
+[2026-04-20 00:53:56] INFO: ✅ OTP email sent to pavanneerudu32@gmail.com
+[2026-04-20 00:53:56] DEBUG: Message ID: <8a3217d4-ad1d-5c28-2706-fabfaa1bc19c@gmail.com>
+[2026-04-20 00:54:17] DEBUG: → POST /api/auth/verify-otp [::1]
+[2026-04-20 00:54:17] INFO: User pavanneerudu32@gmail.com completed MFA and device Chrome 147.0.0.0 on Mac OS 10.15.7 is now trusted
+[2026-04-20 00:54:17] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:54:17] DEBUG: → GET /api/resources/dashboard [::1]
+[2026-04-20 00:54:26] DEBUG: → POST /api/auth/logout [::1]
+[2026-04-20 13:21:24] INFO: ✅ Database models synchronized
+[2026-04-20 13:21:24] INFO: 🚀 Server running on http://localhost:5001
+[2026-04-20 13:21:24] INFO: 🔒 Environment: development
+[2026-04-20 13:21:24] INFO: 🛡️  Zero Trust Security System Active
